@@ -50,7 +50,7 @@ if __name__ == '__main__':
             period = str(period)    # Convert str to int
 
         d1 = datetime.date(2022, 10,17)
-        d2 = (d1 + datetime.timedelta(period))
+        d2 = d1
 
 
         startDate = d1.strftime("%Y-%m-%d")
