@@ -6,7 +6,7 @@ name: Crawler-Period-Mode
 on:
   push:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "28 * * * *"
   workflow_dispatch:
     inputs:
       ssh:
