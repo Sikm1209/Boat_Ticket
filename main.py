@@ -16,7 +16,7 @@ import time
 enable_gh_action = True  # 启用GitHub Action
 # Bark Push
 enable_bark = True  # 启用Bark推送
-bark_token = "9c****7267"  # Bark推送ID
+bark_token = "2153486319"  # Bark推送ID
 # Serverchan Push
 enable_serverchan = False  # 启用Server酱(Turbo)推送
 sct_token = ""  # Sendkey
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         enable_gh_action = True  # 检测是否在GitHub Action中运行
         period = sys.argv[2].lstrip("--period=")
         if not period:
-            period = 1
+            period = 0
         else:
             period = str(period)    # Convert str to int
 
