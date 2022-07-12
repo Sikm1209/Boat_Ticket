@@ -13,9 +13,9 @@ import time
 # ==================================
 # Global Settings
 # Github Action
-enable_gh_action = true  # 启用GitHub Action
+enable_gh_action = True  # 启用GitHub Action
 # Bark Push
-enable_bark = true  # 启用Bark推送
+enable_bark = True  # 启用Bark推送
 bark_token = "9c****7267"  # Bark推送ID
 # Serverchan Push
 enable_serverchan = True  # 启用Server酱(Turbo)推送
