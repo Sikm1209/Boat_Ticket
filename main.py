@@ -49,7 +49,7 @@ if __name__ == '__main__':
         else:
             period = str(period)    # Convert str to int
 
-        d1 = datetime.date(2022, 10,17)
+        d1 = datetime.date(2022, 9,17)
         d2 = (d1 + datetime.timedelta(period))
 
 
