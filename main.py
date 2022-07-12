@@ -45,11 +45,11 @@ if __name__ == '__main__':
         enable_gh_action = True  # 检测是否在GitHub Action中运行
         period = sys.argv[2].lstrip("--period=")
         if not period:
-            period = 30
+            period = 1
         else:
             period = str(period)    # Convert str to int
 
-        d1 = datetime.date.today()
+        d1 = datetime.date.today("2022-09-17")
         d2 = (d1 + datetime.timedelta(period))
 
 
