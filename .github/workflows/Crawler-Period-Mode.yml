@@ -6,7 +6,6 @@ name: Crawler-Period-Mode
 on:
   push:
   schedule:
-    - cron: "*/15 * * * *"
     - cron: "0 1 * * *"
     - cron: "30 1 * * *"
     - cron: "0 2 * * *"
@@ -27,8 +26,9 @@ on:
     - cron: "30 9 * * *"
     - cron: "0 10 * * *"
     - cron: "30 10 * * *"
-    - cron: "50 16 * * *"
-    - cron: "59 16 * * *"
+    - cron: "40 17 * * *"
+    - cron: "35 17 * * *"
+    - cron: "46 17 * * *"
     
     
   workflow_dispatch:
