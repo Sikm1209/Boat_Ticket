@@ -6,7 +6,7 @@ name: Crawler-Period-Mode
 on:
   push:
   schedule:
-    - cron: "35 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       ssh:
@@ -16,7 +16,7 @@ on:
       period:
         description: 'Search Period'
         required: true
-        default: '30'
+        default: '1'
     
 jobs:
   build:
