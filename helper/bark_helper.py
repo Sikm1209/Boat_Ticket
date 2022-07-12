@@ -13,7 +13,7 @@ def bark_push(token: str, title: str, content):
 
     for ship in content:
         shipContent = beautify_results(ship)
-        url = f"https://api.day.app/{token}"
+        url = f"https://api.day.app/RP5yeLeTiiiCqcS9qAgdTD/Archive notification message?isArchive=1"
 
         payload = json.dumps({
             "title": title,
