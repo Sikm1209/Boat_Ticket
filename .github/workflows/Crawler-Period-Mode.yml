@@ -13,10 +13,7 @@ on:
         description: 'SSH connection to Actions (For Debug)'
         required: false
         default: 'false'
-      period:
-        description: 'Search Period'
-        required: true
-        default: '5'
+    
 
 jobs:
   build:
