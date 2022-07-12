@@ -60,7 +60,7 @@ if __name__ == '__main__':
         print("Invalid argument")
         exit(0)
 
-    toDate = "2022-09-17"  # 船票的起止时间
+    toDate = create_assist_date(datestart=startDate, dateend=endDate)  # 船票的起止时间
 
     print(f'正在查找{startDate}到{endDate}之间的可用船票')
 
